@@ -1,0 +1,44 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    margin-left: 550px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+}
+
+.bodyimg{
+    position: relative;
+}
+
+.bodyimg h4{
+   position: absolute;
+   top: 2%;
+   left: 38.5%; 
+}
+
+.bodyimg h3{
+   position: absolute;
+   top: 19%;
+   left: 1%; 
+}
